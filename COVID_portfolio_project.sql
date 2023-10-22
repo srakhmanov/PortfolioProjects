@@ -1,4 +1,4 @@
-/*SELECT *
+SELECT *
 from PortfolioProject..CovidDeaths
 where continent is not null
 ORDER by 3, 4
@@ -130,7 +130,7 @@ Join PortfolioProject..CovidVaccinations as vac
     on dea.location = vac.location
     and dea.date = vac.date
 where dea.continent is not null
---ORDER by 2, 3*/
+--ORDER by 2, 3
 
 Select *
 FROM persent_population_vaccinated
